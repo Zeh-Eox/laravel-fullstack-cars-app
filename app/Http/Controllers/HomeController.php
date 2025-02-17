@@ -12,6 +12,6 @@ class HomeController extends Controller
         return View::make('home.index')
             ->with('name', 'Arnold')
             ->with('surname', 'CONVOLBO')
-            ->with('hobbies', ['programmation', 'basketball', 'tennis']);
+            ->with('hobbies', ['programmation', 'basketball', 'tennis', 'mangas', 'animes']);
     }
 }
