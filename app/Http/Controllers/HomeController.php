@@ -9,9 +9,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return View::make('home.index')
-            ->with('name', 'Arnold')
-            ->with('surname', 'CONVOLBO')
-            ->with('hobbies', ['programmation', 'basketball', 'tennis', 'mangas', 'animes']);
+        return View::make('home.index');
     }
 }
