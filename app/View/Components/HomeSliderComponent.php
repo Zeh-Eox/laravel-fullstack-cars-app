@@ -4,6 +4,7 @@ namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\View as FacadesView;
 use Illuminate\View\Component;
 
 class HomeSliderComponent extends Component
@@ -21,6 +22,6 @@ class HomeSliderComponent extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.home-slider-component');
+        return FacadesView::make('components.home-slider-component');
     }
 }
