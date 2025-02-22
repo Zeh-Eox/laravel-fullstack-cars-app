@@ -707,8 +707,16 @@ main {
 
 .car-items-listing {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.car-item {
+  transition: transform 0.4s ease;
+}
+
+.car-item:hover {
+  transform: scale(1.01);
 }
 
 .car-item-title {
@@ -729,6 +737,7 @@ main {
 .car-item-badge {
   background-color: #e5e5e5;
   padding: 0.25rem 0.5rem;
+  margin-top: 0.5rem;
   border-radius: 4px;
   font-size: 13px;
 }
