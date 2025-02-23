@@ -17,7 +17,9 @@
                 Type, etc...
               </p>
 
-              <button class="btn btn-hero-slider">Find the car</button>
+              <a href="#check-cars-button">
+                <button class="btn btn-hero-slider">Check Cars</button>
+              </a>
             </div>
           </div>
           <div class="slide-image">
@@ -39,7 +41,7 @@
                 upload photos and the perfect buyer will find it...
               </p>
 
-              <button class="btn btn-hero-slider">Add Your Car</button>
+              <button class="btn btn-hero-slider">Add a Car</button>
             </div>
           </div>
           <div class="slide-image">

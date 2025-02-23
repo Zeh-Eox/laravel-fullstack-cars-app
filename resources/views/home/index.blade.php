@@ -8,7 +8,7 @@
 <x-home-slider-component />
 
 <main>
-    <x-search-form-component />
+    <x-search-form-component action="/search" method="GET" />
     <x-new-cars-component />
 </main>
 
