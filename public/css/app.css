@@ -1,6 +1,6 @@
 :root {
   /* Globals */
-  --primary-font: "Quicksand", sans-serif;
+  --primary-font: "Quicksand";
   --primary-color: #007bff; /* bleu */
   --primary-color-hover: #0056b3; /* bleu foncé */
   --text-color: #5c5c5c;
@@ -45,6 +45,7 @@
 
 button {
   color: var(--text-color);
+  font-family: var(--primary-font);
 }
 
 hr {
