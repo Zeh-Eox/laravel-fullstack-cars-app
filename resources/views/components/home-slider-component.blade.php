@@ -22,9 +22,6 @@
               </a>
             </div>
           </div>
-          <div class="slide-image">
-            <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
-          </div>
         </div>
       </div>
       <!-- Item 2 -->
@@ -43,9 +40,6 @@
 
               <button class="btn btn-hero-slider">Add a Car</button>
             </div>
-          </div>
-          <div class="slide-image">
-            <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
           </div>
         </div>
       </div>

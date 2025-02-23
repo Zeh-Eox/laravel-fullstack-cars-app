@@ -1,8 +1,8 @@
 :root {
   /* Globals */
   --primary-font: "Quicksand", sans-serif;
-  --primary-color: #e9580c;
-  --primary-color-hover: #ba4405;
+  --primary-color: #007bff; /* bleu */
+  --primary-color-hover: #0056b3; /* bleu foncé */
   --text-color: #5c5c5c;
   --text-muted-color: #909090;
   --link-color: var(--primary-color);
@@ -13,7 +13,7 @@
   --navbar-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   --navbar-link-color: #252525;
   --navbar-link-padding: 0 1rem;
-  --navbar-height: 80px;
+  --navbar-height: 70px;
 
   /* Buttons */
   --default-button-color: var(--text-color);
@@ -22,7 +22,7 @@
   --default-button-hover-bg: #ebebeb;
 
   --primary-button-color: #fff;
-  --primary-button-border-color: #c74c09;
+  --primary-button-border-color: #0069d9; /* bleu plus foncé */
   --button-border-radius: 6px;
 
   /* Inputs */
@@ -30,7 +30,7 @@
   --input-text-color: #272727;
   --input-border: 1px solid #d6d6d6;
   --input-border-error-color: var(--error-color);
-  --input-hover-border-color: #e08554;
+  --input-hover-border-color: #66aaff; /* bleu clair */
   --input-focus-border-color: var(--primary-color);
 }
 
@@ -609,7 +609,7 @@ main {
 }
 
 .hero-slide {
-  height: 600px;
+  height: 550px;
   flex: 0 0 100%;
   transition: transform 0.5s ease-in-out;
   display: flex;
