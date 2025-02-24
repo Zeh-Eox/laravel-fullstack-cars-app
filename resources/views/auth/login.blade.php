@@ -20,7 +20,10 @@
                     
                         <button class="btn btn-primary btn-login w-full">Login</button>
                     
-                        <x-layouts.socials />
+                        <div class="grid grid-cols-2 gap-1 social-auth-buttons">
+                            <x-google-button />
+                            <x-facebook-button />
+                        </div>
 
                         <div class="login-text-dont-have-account">
                             Don't have an account? -
