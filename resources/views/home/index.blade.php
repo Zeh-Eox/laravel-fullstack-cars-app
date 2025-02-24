@@ -1,15 +1,10 @@
-@extends('layouts.app')
+<x-app-layout title="Home Page">
 
+    <x-home-slider-component />
 
-@section('title', 'Home Page')
+    <main>
+        <x-search-form-component action="/search" method="GET" />
+        <x-new-cars-component />
+    </main>
 
-@section('content')
-
-<x-home-slider-component />
-
-<main>
-    <x-search-form-component action="/search" method="GET" />
-    <x-new-cars-component />
-</main>
-
-@endsection
+</x-app-layout>

@@ -1,7 +1,5 @@
-@extends('layouts.clean', ['cssClass' => 'page-login'])
+<x-base-layout title="Login" bodyClass="page-login">
 
-@section('title', 'Login')
+    <x-layouts.mainLogin />
 
-@section('childContent')
-    @include('layouts.partials.mainLogin')
-@endsection
+</x-base-layout>
