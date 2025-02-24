@@ -1,50 +1,33 @@
-<x-base-layout title="Signup" bodyClass="page-signup">
+<x-guest-layout title="Signup" bodyClass="page-signup">
 
-    <main>
-        <div class="container-small page-login">
-          <div class="flex" style="gap: 5rem">
-            <div class="auth-page-form">
-              <h1 class="auth-page-title">Signup</h1>
+    <h1 class="auth-page-title">Signup</h1>
     
-              <form action="" method="post">
-                <div class="form-group">
-                  <input type="email" placeholder="Your Email" />
-                </div>
-                <div class="form-group">
-                  <input type="password" placeholder="Your Password" />
-                </div>
-                <div class="form-group">
-                  <input type="password" placeholder="Repeat Password" />
-                </div>
-                <hr />
-                <div class="form-group">
-                  <input type="text" placeholder="First Name" />
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="Last Name" />
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="Phone" />
-                </div>
-                <button class="btn btn-primary btn-login w-full">Register</button>
-
-                <div class="grid grid-cols-2 gap-1 social-auth-buttons">
-                  <x-google-button />
-                  <x-facebook-button />
-                </div>
-  
-                <div class="login-text-dont-have-account">
-                  Already have an account? -
-                  <a href="{{ route('login') }}"> Click here to login </a>
-                </div>
-              </form>
-            </div>
-            <div class="auth-page-image">
-              <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
-            </div>
-          </div>
+    <form action="" method="post">
+        <div class="form-group">
+            <input type="email" placeholder="Your Email" />
         </div>
-    </main>
-    
+        <div class="form-group">
+            <input type="password" placeholder="Your Password" />
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="Repeat Password" />
+        </div>
+        <hr />
+        <div class="form-group">
+            <input type="text" placeholder="First Name" />
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Phone" />
+        </div>
+        <button class="btn btn-primary btn-login w-full">Register</button>
+    </form>
 
-</x-base-layout>
+    <x-slot:footerLink>
+        Already have an account? -
+        <a href="{{ route('login') }}"> Click here to login </a>
+    </x-slot:footerLink>
+
+</x-guest-layout>
